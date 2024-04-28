@@ -1,23 +1,7 @@
 {
     "version": "2.0.0",
     "tasks": [
-        {
-            "label": "build hello world",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
-            ],
-            "group": "build",
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "detail": "Generated task by user."
-        },
-        {
+        { 
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
             "command": "D:\\Documents\\New folder\\mingw64\\bin\\g++.exe",
